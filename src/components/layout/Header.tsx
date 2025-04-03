@@ -53,13 +53,13 @@ const Header = () => {
             <div className={`relative ${isSearchOpen ? 'block' : 'hidden md:block'}`}>
               <form onSubmit={handleSearch} className="flex items-center">
                 <input
-                  type="text"
+                  type="search"
                   placeholder="Search..."
                   className="input-field rounded-full py-1 pl-3 pr-10 text-sm focus:ring-1"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                 />
-                <button type="submit" className="absolute right-2 top-1/2 transform -translate-y-1/2">
+                <button type="submit" className="absolute right-2 top-1/2 transform -translate-y-1/2" aria-label='search button' >
                   <Search size={18} className="text-gray-500" />
                 </button>
               </form>

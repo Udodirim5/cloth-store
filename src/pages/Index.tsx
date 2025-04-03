@@ -63,7 +63,7 @@ const Index = () => {
                   className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105" 
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
-                  <h3 className="text-white text-2xl font-bold">Men</h3>
+                  <h3 className="text-white text-2xl font-bold">Men's</h3>
                 </div>
               </div>
             </Link>
@@ -75,7 +75,7 @@ const Index = () => {
                   className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105" 
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
-                  <h3 className="text-white text-2xl font-bold">Women</h3>
+                  <h3 className="text-white text-2xl font-bold">Women's</h3>
                 </div>
               </div>
             </Link>
